@@ -1,0 +1,417 @@
+body {
+  background-image: url();
+}
+
+.top {
+  text-align: end;
+  margin: 20px;
+  margin-left: auto;
+  height: 50px;
+}
+.top a {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+
+.top a:hover {
+  text-decoration: underline;
+}
+.top i {
+  margin-left: auto;
+}
+.top span {
+  margin-left: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.google {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 100px;
+}
+
+dialog {
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 70px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  width: 350px;
+  height: 300px;
+  overflow: auto;
+}
+
+dialog .btnHover {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  height: 90px;
+  width: 90px;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+dialog .btnHover:hover {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  height: 90px;
+  width: 90px;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+dialog img {
+  height: 60px;
+}
+dialog .btnHover a img {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 50px;
+  justify-content: center;
+}
+dialog .btnHover a {
+  text-decoration: none;
+}
+dialog .btnHover a .title {
+  text-align: center;
+  width: 90px;
+  text-decoration: none;
+  outline: none;
+}
+
+dialog::-webkit-scrollbar {
+  width: 6px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+dialog::-webkit-scrollbar-track {
+  width: 6px;
+  background: #ffffff;
+}
+
+dialog::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+dialog::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.inputSearch {
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  height: 35px;
+  background-color: whitesmoke;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  justify-items: baseline;
+  padding-top: 5px;
+  box-shadow: 5;
+}
+.inputSearch input {
+  width: 450px;
+  background-color: whitesmoke;
+  justify-content: top;
+  padding-bottom: 7px;
+  font-size: medium;
+  border: none;
+  outline: none;
+  margin-bottom: 1px;
+  vertical-align: middle;
+}
+
+.inputSearch input:hover {
+}
+
+.add {
+  height: 200px;
+  width: 550px;
+  margin: auto;
+}
+
+.add .btnHover {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 100px;
+  width: 100px;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.add .btnHover:hover {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: whitesmoke;
+  display: inline-flex;
+  justify-content: center;
+  transition: ease-in-out;
+  border-radius: 10px;
+}
+.add span {
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: inline-flex;
+  flex-shrink: 0;
+  height: 60px;
+  justify-content: center;
+  margin-top: 12px;
+  width: 60px;
+}
+
+.add a img {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.add span a {
+  text-decoration: none;
+}
+.add span a .title {
+  width: 90px;
+  text-decoration: none;
+  outline: none;
+}
+.add i {
+  color: black;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.add .card {
+  height: 100px;
+  width: 100px;
+  font-size: medium;
+  border-radius: 10%;
+  background-color: white;
+  margin-left: 18px;
+}
+/* .clicked {
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  text-align: end;
+  margin-left: auto;
+}
+.addLink {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  text-align: end;
+  margin: auto;
+} */
+
+/* The Modal (background) */
+/* .modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+} */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 98%;
+  height: 100%;
+  overflow: none;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: whitesmoke;
+  margin-left: auto;
+  padding: 10px;
+  height: 280px;
+  width: 350px;
+  border: 1px solid #888;
+  border-radius: 10%;
+  border: none;
+  box-shadow: 5px 5px 5px #555;
+}
+
+.modal-content header {
+  font-size: 12px;
+  text-align: center;
+  font-size: bold;
+  padding: 5px;
+  width: 200px;
+  margin: auto;
+}
+
+.modal-content header:hover {
+  margin: auto;
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+  font-size: bold;
+  padding: 5px;
+  background-color: azure;
+  border-radius: 10px;
+}
+
+.modal-content .body {
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.modal-content .body img {
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.modal-content .body span {
+  font-size: large;
+  margin-left: 80px;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  vertical-align: super;
+  padding-bottom: 10px;
+}
+
+.modal-content .body button img {
+  height: 30px;
+  margin: 0;
+}
+
+.modal-content .body button {
+  font-size: 15px;
+  margin-top: 5px;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: top;
+  box-shadow: rgb(115, 83, 24);
+  margin-left: 70px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 30px;
+}
+
+.modal-content .body button:hover {
+  font-size: 15px;
+  margin-top: 5px;
+  background-color: azure;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: top;
+  box-shadow: rgb(115, 83, 24);
+  margin-left: 70px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 30px;
+}
+
+.modal-content button img {
+  height: 20px;
+  width: 20px;
+  margin-right: 30px;
+}
+
+.modal-content .addAccount {
+  background-color: white;
+  padding-top: 2px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px;
+  height: 30px;
+}
+
+.modal-content button {
+  font-size: large;
+  margin-top: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+  border: none;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+.modal-content button:hover {
+  font-size: large;
+  margin-top: 5px;
+  background-color: azure;
+  text-align: center;
+  border: none;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.modal-content a {
+  text-align: center;
+  color: black;
+  margin-left: 50px;
+  text-decoration: none;
+  justify-content: center;
+  padding: 5px;
+}
+.modal-content a:hover {
+  text-align: center;
+  background-color: azure;
+  color: black;
+  margin-left: 50px;
+  text-decoration: none;
+  justify-content: center;
+  padding: 5px;
+}
+
+.apps {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 10px;
+  left: 0;
+  top: 0;
+  margin-top: 50px;
+  width: 98%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.apps-content {
+  background-color: whitesmoke;
+  margin-left: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+}
